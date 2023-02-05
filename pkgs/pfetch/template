@@ -1,0 +1,8 @@
+pkgname="pfetch"
+repo="https://github.com/dylanaraps/${pkgname}"
+
+mkdir ~/.pkgs/pfetch
+git clone ${repo} ~/.pkgs/pfetch
+cd ~/.pkgs/pfetch
+sudo make install
+
